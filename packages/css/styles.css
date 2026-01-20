@@ -413,7 +413,7 @@ img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-items: center;
+  align-self: center;
 }
 
 .about__description {
@@ -886,6 +886,7 @@ img {
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
+  align-items: center;
 }
 
 .contact__icon {
